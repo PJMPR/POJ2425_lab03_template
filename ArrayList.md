@@ -183,7 +183,6 @@ products.addAll(extra);
 
 - `ArrayList` działa bardzo wydajnie przy dodawaniu i odczycie na końcu.
 - Nie nadaje się do częstych wstawek/usuwania w środku – do tego lepsza będzie `LinkedList`.
-- Można sortować listę za pomocą `Collections.sort()` lub `stream().sorted()`.
 
 ---
 
