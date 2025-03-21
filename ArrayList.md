@@ -187,6 +187,6 @@ products.addAll(extra);
 
 ---
 
-👨‍💻 **Autor:** [Twoje Imię]  
+👨‍💻 **Autor:** Adam Urbanowicz
 📅 **Data:** 2025-03-21
 
