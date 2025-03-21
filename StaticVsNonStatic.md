@@ -24,7 +24,7 @@ public class MyClass {
 
 - 🌟 **Pamięć przydzielana jest osobno dla każdej instancji** klasy.
 - 🛠️ Przechowywane są w **heapie** jako część obiektu.
-- ✨ Rezerwecja pamięci w momencie **tworzenia obiektu** (`new`).
+- ✨ Rezerwacja pamięci w momencie **tworzenia obiektu** (`new`).
 - 👤 Każdy obiekt ma **własną kopię** tych pól.
 
 ### 📝 Przykład:
