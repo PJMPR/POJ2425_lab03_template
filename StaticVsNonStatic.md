@@ -8,7 +8,7 @@ W języku **Java** pola statyczne i niestatyczne (instancyjne) są przechowywane
 
 - ✅ **Pamięć przydzielana jest raz** dla całej klasy.
 - 📊 Przechowywane są w obszarze **Metaspace** (od JDK 8; w JDK 7 i wcześniejszych był to **PermGen**).
-- ⏱️ Inicjalizowane są podczas **ładowania klasy** przez ClassLoader.
+- ⏱️ Rezerwacja pamięci podczas **ładowania klasy** przez ClassLoader.
 - 🤝 Współdzielone przez wszystkie instancje danej klasy.
 
 ### 📝 Przykład:
@@ -24,7 +24,7 @@ public class MyClass {
 
 - 🌟 **Pamięć przydzielana jest osobno dla każdej instancji** klasy.
 - 🛠️ Przechowywane są w **heapie** jako część obiektu.
-- ✨ Inicjalizowane w momencie **tworzenia obiektu** (`new`).
+- ✨ Rezerwecja pamięci w momencie **tworzenia obiektu** (`new`).
 - 👤 Każdy obiekt ma **własną kopię** tych pól.
 
 ### 📝 Przykład:
